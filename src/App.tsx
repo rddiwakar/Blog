@@ -1,11 +1,16 @@
 import React from 'react';
+import TopBar from './Components/Topbar/Topbar';
+import Home from './Pages/HomePage/HomePage';
+import SinglePost from './Pages/SinglePost/SinglePostPage';
 
-import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      Hi
+      <TopBar />
+      {/* <Home /> */}
+      <SinglePost />
     </div>
   );
 }
