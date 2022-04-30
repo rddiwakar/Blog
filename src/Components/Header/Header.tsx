@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-const nature = require('../Assets/nature.jpeg')
+const nature = require('../../Assets/nature.jpeg')
 
 const HeaderSection = styled.div`
 margin-top:90px;

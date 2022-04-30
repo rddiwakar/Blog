@@ -1,6 +1,6 @@
 import React from 'react';
 import Sidebar from '../../Components/Sidebar/Sidebar';
-import Header from '../../Header/Header';
+import Header from '../../Components/Header/Header';
 import Posts from '../../Posts/Posts';
 import styled from 'styled-components';
 

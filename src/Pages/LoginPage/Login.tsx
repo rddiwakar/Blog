@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const LoginSection = styled.div `
@@ -59,7 +60,9 @@ export default function LoginPage(){
                 <input type="password" placeholder='Enter your Password...' />
                 <button className="loginButton">Login</button>
             </form>
-            <button className="registerButton">Register</button>
+            <button className="registerButton">
+                <Link to='/register'>Register</Link>
+            </button>
         </LoginSection>
     )
 }
